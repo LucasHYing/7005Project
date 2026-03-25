@@ -1,4 +1,7 @@
 set up:
+hostname -I
+ping <>
+
 server
 python3 server.py --listen-ip 0.0.0.0 --listen-port 5000
 
