@@ -1,0 +1,12 @@
+2026-03-25 01:49:51.713 [CLIENT] Started. Target=10.0.0.233:4000, timeout=2.0s, max_retries=5
+2026-03-25 01:49:51.714 [CLIENT] Type messages and press Enter. Press Ctrl+D to exit.
+2026-03-25 01:49:57.886 [CLIENT] Sending seq=1, attempt=1, payload='last test'
+2026-03-25 01:49:57.919 [CLIENT] Received from ('10.0.0.233', 4000): ACK|1
+2026-03-25 01:49:57.920 [CLIENT] ACK matched seq=1. Message successful.
+2026-03-25 01:50:02.749 [CLIENT] Sending seq=2, attempt=1, payload='last test'
+2026-03-25 01:50:02.754 [CLIENT] Received from ('10.0.0.233', 4000): ACK|2
+2026-03-25 01:50:02.754 [CLIENT] ACK matched seq=2. Message successful.
+2026-03-25 01:50:20.825 [CLIENT] Sending seq=3, attempt=1, payload='last test'
+2026-03-25 01:50:20.830 [CLIENT] Received from ('10.0.0.233', 4000): ACK|3
+2026-03-25 01:50:20.830 [CLIENT] ACK matched seq=3. Message successful.
+2026-03-25 01:50:27.101 [CLIENT] EOF received. Exiting cleanly.

@@ -1,0 +1,82 @@
+2026-03-25 02:31:20.461 [CLIENT] Started. Target=10.0.0.233:4000, timeout=2.0s, max_retries=5
+2026-03-25 02:31:20.463 [CLIENT] Type messages and press Enter. Press Ctrl+D to exit.
+2026-03-25 02:31:39.014 [CLIENT] Sending seq=1, attempt=1, payload='test 6'
+2026-03-25 02:31:41.021 [CLIENT] Timeout waiting for ACK seq=1. Retransmitting (retry 1/5).
+2026-03-25 02:31:41.024 [CLIENT] Sending seq=1, attempt=2, payload='test 6'
+2026-03-25 02:31:43.029 [CLIENT] Timeout waiting for ACK seq=1. Retransmitting (retry 2/5).
+2026-03-25 02:31:43.029 [CLIENT] Sending seq=1, attempt=3, payload='test 6'
+2026-03-25 02:31:45.032 [CLIENT] Timeout waiting for ACK seq=1. Retransmitting (retry 3/5).
+2026-03-25 02:31:45.032 [CLIENT] Sending seq=1, attempt=4, payload='test 6'
+2026-03-25 02:31:47.035 [CLIENT] Timeout waiting for ACK seq=1. Retransmitting (retry 4/5).
+2026-03-25 02:31:47.035 [CLIENT] Sending seq=1, attempt=5, payload='test 6'
+2026-03-25 02:31:47.153 [CLIENT] Received from ('10.0.0.233', 4000): ACK|1
+2026-03-25 02:31:47.153 [CLIENT] ACK matched seq=1. Message successful.
+2026-03-25 02:31:58.380 [CLIENT] Sending seq=2, attempt=1, payload='test 6'
+2026-03-25 02:31:58.384 [CLIENT] Received from ('10.0.0.233', 4000): ACK|2
+2026-03-25 02:31:58.384 [CLIENT] ACK matched seq=2. Message successful.
+2026-03-25 02:32:18.090 [CLIENT] EOF received. Exiting cleanly.
+2026-03-25 02:33:10.519 [CLIENT] Started. Target=10.0.0.233:4000, timeout=2.0s, max_retries=5
+2026-03-25 02:33:10.519 [CLIENT] Type messages and press Enter. Press Ctrl+D to exit.
+2026-03-25 02:33:15.764 [CLIENT] Sending seq=1, attempt=1, payload='test 6'
+2026-03-25 02:33:17.766 [CLIENT] Timeout waiting for ACK seq=1. Retransmitting (retry 1/5).
+2026-03-25 02:33:17.767 [CLIENT] Sending seq=1, attempt=2, payload='test 6'
+2026-03-25 02:33:19.771 [CLIENT] Timeout waiting for ACK seq=1. Retransmitting (retry 2/5).
+2026-03-25 02:33:19.771 [CLIENT] Sending seq=1, attempt=3, payload='test 6'
+2026-03-25 02:33:21.775 [CLIENT] Timeout waiting for ACK seq=1. Retransmitting (retry 3/5).
+2026-03-25 02:33:21.775 [CLIENT] Sending seq=1, attempt=4, payload='test 6'
+2026-03-25 02:33:22.285 [CLIENT] Received from ('10.0.0.233', 4000): ACK|1
+2026-03-25 02:33:22.286 [CLIENT] ACK matched seq=1. Message successful.
+2026-03-25 02:33:26.823 [CLIENT] Sending seq=2, attempt=1, payload='test 6'
+2026-03-25 02:33:28.851 [CLIENT] Timeout waiting for ACK seq=2. Retransmitting (retry 1/5).
+2026-03-25 02:33:28.851 [CLIENT] Sending seq=2, attempt=2, payload='test 6'
+2026-03-25 02:33:28.856 [CLIENT] Received from ('10.0.0.233', 4000): ACK|2
+2026-03-25 02:33:28.856 [CLIENT] ACK matched seq=2. Message successful.
+2026-03-25 02:33:31.587 [CLIENT] Sending seq=3, attempt=1, payload='test 6'
+2026-03-25 02:33:33.593 [CLIENT] Timeout waiting for ACK seq=3. Retransmitting (retry 1/5).
+2026-03-25 02:33:33.593 [CLIENT] Sending seq=3, attempt=2, payload='test 6'
+2026-03-25 02:33:33.597 [CLIENT] Received from ('10.0.0.233', 4000): ACK|3
+2026-03-25 02:33:33.597 [CLIENT] ACK matched seq=3. Message successful.
+2026-03-25 02:33:35.971 [CLIENT] Sending seq=4, attempt=1, payload='test 6'
+2026-03-25 02:33:35.977 [CLIENT] Received from ('10.0.0.233', 4000): ACK|4
+2026-03-25 02:33:35.979 [CLIENT] ACK matched seq=4. Message successful.
+2026-03-25 02:33:38.670 [CLIENT] Sending seq=5, attempt=1, payload='test 6'
+2026-03-25 02:33:40.822 [CLIENT] Timeout waiting for ACK seq=5. Retransmitting (retry 1/5).
+2026-03-25 02:33:40.822 [CLIENT] Sending seq=5, attempt=2, payload='test 6'
+2026-03-25 02:33:42.842 [CLIENT] Timeout waiting for ACK seq=5. Retransmitting (retry 2/5).
+2026-03-25 02:33:42.842 [CLIENT] Sending seq=5, attempt=3, payload='test 6'
+2026-03-25 02:33:44.863 [CLIENT] Timeout waiting for ACK seq=5. Retransmitting (retry 3/5).
+2026-03-25 02:33:44.864 [CLIENT] Sending seq=5, attempt=4, payload='test 6'
+2026-03-25 02:33:45.522 [CLIENT] Received from ('10.0.0.233', 4000): ACK|5
+2026-03-25 02:33:45.522 [CLIENT] ACK matched seq=5. Message successful.
+2026-03-25 02:34:03.258 [CLIENT] Sending seq=6, attempt=1, payload='test 6'
+2026-03-25 02:34:05.315 [CLIENT] Timeout waiting for ACK seq=6. Retransmitting (retry 1/5).
+2026-03-25 02:34:05.315 [CLIENT] Sending seq=6, attempt=2, payload='test 6'
+2026-03-25 02:34:07.769 [CLIENT] Timeout waiting for ACK seq=6. Retransmitting (retry 2/5).
+2026-03-25 02:34:07.769 [CLIENT] Sending seq=6, attempt=3, payload='test 6'
+2026-03-25 02:34:09.814 [CLIENT] Timeout waiting for ACK seq=6. Retransmitting (retry 3/5).
+2026-03-25 02:34:09.814 [CLIENT] Sending seq=6, attempt=4, payload='test 6'
+2026-03-25 02:34:11.874 [CLIENT] Timeout waiting for ACK seq=6. Retransmitting (retry 4/5).
+2026-03-25 02:34:11.874 [CLIENT] Sending seq=6, attempt=5, payload='test 6'
+2026-03-25 02:34:13.326 [CLIENT] Received from ('10.0.0.233', 4000): ACK|6
+2026-03-25 02:34:13.326 [CLIENT] ACK matched seq=6. Message successful.
+2026-03-25 02:34:21.186 [CLIENT] Sending seq=7, attempt=1, payload='test 7'
+2026-03-25 02:34:21.188 [CLIENT] Received from ('10.0.0.233', 4000): ACK|6
+2026-03-25 02:34:21.188 [CLIENT] Unexpected or invalid ACK while waiting for seq=7; ignored.
+2026-03-25 02:34:21.188 [CLIENT] Sending seq=7, attempt=1, payload='test 7'
+2026-03-25 02:34:23.191 [CLIENT] Timeout waiting for ACK seq=7. Retransmitting (retry 1/5).
+2026-03-25 02:34:23.191 [CLIENT] Sending seq=7, attempt=2, payload='test 7'
+2026-03-25 02:34:23.692 [CLIENT] Received from ('10.0.0.233', 4000): ACK|7
+2026-03-25 02:34:23.692 [CLIENT] ACK matched seq=7. Message successful.
+2026-03-25 02:34:28.184 [CLIENT] Sending seq=8, attempt=1, payload='test 7'
+2026-03-25 02:34:30.191 [CLIENT] Timeout waiting for ACK seq=8. Retransmitting (retry 1/5).
+2026-03-25 02:34:30.191 [CLIENT] Sending seq=8, attempt=2, payload='test 7'
+2026-03-25 02:34:32.246 [CLIENT] Timeout waiting for ACK seq=8. Retransmitting (retry 2/5).
+2026-03-25 02:34:32.247 [CLIENT] Sending seq=8, attempt=3, payload='test 7'
+2026-03-25 02:34:34.334 [CLIENT] Timeout waiting for ACK seq=8. Retransmitting (retry 3/5).
+2026-03-25 02:34:34.334 [CLIENT] Sending seq=8, attempt=4, payload='test 7'
+2026-03-25 02:34:36.337 [CLIENT] Timeout waiting for ACK seq=8. Retransmitting (retry 4/5).
+2026-03-25 02:34:36.337 [CLIENT] Sending seq=8, attempt=5, payload='test 7'
+2026-03-25 02:34:38.361 [CLIENT] Timeout waiting for ACK seq=8. Retransmitting (retry 5/5).
+2026-03-25 02:34:38.361 [CLIENT] Sending seq=8, attempt=6, payload='test 7'
+2026-03-25 02:34:40.370 [CLIENT] ERROR: Message seq=8 failed after 5 retries.
+2026-03-25 02:34:47.542 [CLIENT] EOF received. Exiting cleanly.
