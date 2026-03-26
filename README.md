@@ -99,3 +99,6 @@ python3 proxy.py \
   --client-delay-time-max 2500 \
   --server-delay-time-min 2500 \
   --server-delay-time-max 2500
+
+
+  python3 generate_graph.py --log-file test6.log --output graph.png --title "Test 6 Results"
