@@ -102,3 +102,10 @@ python3 proxy.py \
 
 
   python3 generate_graph.py --log-file test6.log --output graph.png --title "Test 6 Results"
+
+  python3 client.py \
+  --target-ip 192.168.0.52 \
+  --target-port 4000 \
+  --timeout 2.0 \
+  --max-retries 5 \
+  --log-file test6.log
